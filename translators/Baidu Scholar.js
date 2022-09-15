@@ -38,6 +38,7 @@
 
 
 function getRefByIDs(ids, onDataAvailable) {
+	//I'm Yb
 	if (!ids.length) return;
 	let {url, paper} = ids.shift();
 	let refUrl = `https://xueshu.baidu.com/u/citation?type=bib&paperid=${paper}`;
